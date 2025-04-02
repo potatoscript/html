@@ -1,31 +1,51 @@
-# Full HTML5 Tutorial List
+## **🔥 HTML5 Tutorial 🔥**  
 
-| Title                                      | Description                                                                                                    | Example Code                                                                                                  | Remarks                                                   |
-|--------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| [Introduction to HTML](https://github.com/potatoscript/html/wiki/Introduction)  | What HTML is, its importance, and how browsers interpret HTML. Learn how HTML documents are structured.         | ```html <html> <head><title>My First Page</title></head> <body><h1>Hello, World!</h1></body> </html>```         | Basic structure of an HTML document.                      |
-| [Text Basics](https://github.com/potatoscript/html/wiki/Text-Basics) | Learn about HTML tags for text formatting: `<h1>`, `<p>`, `<strong>`, and `<em>`.                              | ```html <h1>Welcome</h1><p>This is a paragraph <strong>important</strong> text.</p>```                         | Covers headings and text formatting.                      |
-| [Button](https://github.com/potatoscript/html/wiki/Button) | How to use buttons in HTML, including `<button>`, `<input type="button">`, and their actions.                 | ```html <button onclick="alert('Hello!')">Click me</button>```                                                 | Buttons, Radio Buttons, Checkboxes.                       |
-| [Images](https://github.com/potatoscript/html/wiki/Images) | How to add images using the `<img>` tag, understanding attributes like `src` and `alt`.                         | ```html <img src="image.jpg" alt="A cute cat">```                                                               | Image embedding and accessibility.                        |
-| [Links](https://github.com/potatoscript/html/wiki/Links) | How to create clickable links with the `<a>` tag and the importance of the `href` attribute.                   | ```html <a href="https://www.example.com">Visit Example</a>```                                                  | Links and navigation.                                    |
-| [Lists](https://github.com/potatoscript/html/wiki/Lists) | How to create ordered and unordered lists with `<ol>` and `<ul>`.                                               | ```html <ul><li>Apples</li><li>Bananas</li></ul>```                                                             | Bulleted and numbered lists.                             |
-| [Tables](https://github.com/potatoscript/html/wiki/Tables) | Creating tables with `<table>`, `<tr>`, `<th>`, and `<td>`.                                                     | ```html <table><tr><th>Fruit</th><th>Price</th></tr><tr><td>Apple</td><td>$1</td></tr></table>```               | Structuring data in rows and columns.                    |
-| [Forms](https://github.com/potatoscript/html/wiki/Forms) | How to create forms with various input fields like text, radio buttons, checkboxes, and submit buttons.         | ```html <form><input type="text"><input type="submit"></form>```                                               | Collecting data through user input.                      |
-| [Input type="number"](https://github.com/potatoscript/html/wiki/Input-number) | How to restrict input to numbers using `type="number"` and setting minimum and maximum values.                | ```html <input type="number" min="1" max="10">```                                                               | Forcing numeric input.                                    |
-| [Marquee](https://github.com/potatoscript/html/wiki/Marquee) | Using the `<marquee>` tag for scrolling text effects.                                                           | ```html <marquee behavior="scroll" direction="left">Scroll me!</marquee>```                                    | Adding animated scrolling text.                           |
-| [Entitles](https://github.com/potatoscript/html/wiki/Entitles) | Special characters and HTML entities: `&copy;`, `&amp;`, and others.                                            | ```html &copy; 2025 Potatoscript```                                                                             | Representing special characters in HTML.                  |
-| [HTML5 Video](https://github.com/potatoscript/html/wiki/HTML5-Video) | How to embed video using `<video>` tag with controls.                                                            | ```html <video controls><source src="video.mp4" type="video/mp4"></video>```                                    | Adding videos to web pages.                               |
-| [HTML5 Audio](https://github.com/potatoscript/html/wiki/HTML5-Audio) | Embedding audio files using the `<audio>` tag.                                                                  | ```html <audio controls><source src="audio.mp3" type="audio/mp3"></audio>```                                    | Playing audio on web pages.                               |
-| [HTML5 Local Storage](https://github.com/potatoscript/html/wiki/HTML5-Local-Storage) | Introduction to storing data in the browser with Local Storage and its use cases.                              | ```javascript localStorage.setItem('name', 'Lucy');```                                                           | Saving data locally in the browser.                       |
-| [HTML5 Canvas](https://github.com/potatoscript/html/wiki/HTML5-Canvas) | How to draw graphics and create animations with the `<canvas>` tag.                                             | ```html <canvas id="myCanvas" width="200" height="100"></canvas>```                                            | Drawing and animation basics.                             |
-| [HTML Entities](https://github.com/potatoscript/html/wiki/Entities) | Special characters, symbols, and how to use HTML entities for things like arrows and trademark symbols.        | ```html &rarr; &copy; &trade;```                                                                                | Using HTML entities for symbols and special characters.   |
-| [HTML5 Semantic Tags](https://github.com/potatoscript/html/wiki/Semantic-Tags) | Using semantic HTML5 tags like `<header>`, `<footer>`, `<article>`, and `<section>` for better structure.      | ```html <article><h1>Title</h1><p>Content</p></article>```                                                       | Better structure for accessibility and SEO.               |
-| [HTML Forms & Validation](https://github.com/potatoscript/html/wiki/Forms-Validation) | How to create and validate forms using HTML5 attributes like `required`, `pattern`, and `min`.                   | ```html <input type="email" required><input type="number" min="1">```                                          | Ensuring correct input in forms.                          |
-| [Responsive Design](https://github.com/potatoscript/html/wiki/Responsive-Design) | Creating responsive web pages that work well on all devices, using `meta` tags and CSS.                        | ```html <meta name="viewport" content="width=device-width, initial-scale=1">```                                | Making your pages mobile-friendly.                        |
-| [HTML5 Geolocation](https://github.com/potatoscript/html/wiki/Geolocation) | Accessing the user's location via the Geolocation API in HTML5.                                                | ```javascript navigator.geolocation.getCurrentPosition(function(position) { alert(position.coords.latitude); });``` | Location-based features.                                  |
+| **Title** | **Remark** |  
+|-----------|-----------|  
+| [Introduction to HTML](https://github.com/potatoscript/html/wiki/Introduction) | What HTML is, how it works, and its role in web development. |  
+| [HTML Syntax & Structure](https://github.com/potatoscript/html/wiki/Syntax) | Learn the core structure of an HTML document. |  
+| [HTML Doctype](https://github.com/potatoscript/html/wiki/Doctype) | Understand the importance of `<!DOCTYPE html>`. |  
+| [HTML Tags Overview](https://github.com/potatoscript/html/wiki/Tags) | Full list of all HTML5 tags and how to use them. |  
+| [HTML Comments (`<!-- comment -->`)](https://github.com/potatoscript/html/wiki/Comments) | Learn how to add comments to your code. |  
+| [Headings (`<h1>` to `<h6>`)](https://github.com/potatoscript/html/wiki/Headings) | Use headings properly for content organization. |  
+| [Paragraphs (`<p>`)](https://github.com/potatoscript/html/wiki/Paragraphs) | Structure text using paragraphs. |  
+| [Text Formatting](https://github.com/potatoscript/html/wiki/Text-Formatting) | Bold, italic, underline, and other text styles. |  
+| [Hyperlinks (`<a>`)](https://github.com/potatoscript/html/wiki/Links) | Create clickable links and navigate between pages. |  
+| [Lists (`<ul>`, `<ol>`, `<li>`)](https://github.com/potatoscript/html/wiki/Lists) | Learn how to create ordered and unordered lists. |  
+| [Definition Lists (`<dl>`, `<dt>`, `<dd>`)](https://github.com/potatoscript/html/wiki/Definition-Lists) | Learn how to create definition lists. |  
+| [Tables (`<table>`, `<tr>`, `<td>`, `<th>`)](https://github.com/potatoscript/html/wiki/Tables) | Learn how to structure tabular data. |  
+| [Forms & Input Fields](https://github.com/potatoscript/html/wiki/Forms) | Learn how to create forms and handle user input. |  
+| [Form Attributes (`action`, `method`, `autocomplete`)](https://github.com/potatoscript/html/wiki/Form-Attributes) | Learn form attributes and their functions. |  
+| [Input Types (`text`, `password`, `email`, `number`)](https://github.com/potatoscript/html/wiki/Input-Types) | Learn all available input types. |  
+| [Buttons (`<button>`)](https://github.com/potatoscript/html/wiki/Button) | Learn how to create buttons and their behaviors. |  
+| [Input Validation](https://github.com/potatoscript/html/wiki/Input-Validation) | Use HTML5 validation to check user input. |  
+| [Images (`<img>`)](https://github.com/potatoscript/html/wiki/Images) | Learn how to insert and optimize images. |  
+| [Multimedia (`<video>`, `<audio>`)](https://github.com/potatoscript/html/wiki/Multimedia) | Learn how to embed videos and audio. |  
+| [Iframes (`<iframe>`)](https://github.com/potatoscript/html/wiki/Iframes) | Learn how to embed external content. |  
+| [HTML Entities](https://github.com/potatoscript/html/wiki/Entities) | Learn special characters like `&copy;` and `&lt;`. |  
+| [HTML Meta Tags](https://github.com/potatoscript/html/wiki/Meta-Tags) | Improve SEO, set page descriptions, and more. |  
+| [HTML5 Semantic Elements](https://github.com/potatoscript/html/wiki/Semantic-Elements) | Use `<header>`, `<footer>`, `<article>`, `<section>`, etc. |  
+| [HTML5 Canvas](https://github.com/potatoscript/html/wiki/Canvas) | Learn to draw graphics using JavaScript. |  
+| [HTML5 SVG](https://github.com/potatoscript/html/wiki/SVG) | Learn how to use scalable vector graphics. |  
+| [HTML5 Local Storage](https://github.com/potatoscript/html/wiki/Local-Storage) | Store data in the user's browser. |  
+| [HTML5 Session Storage](https://github.com/potatoscript/html/wiki/Session-Storage) | Store temporary data in a session. |  
+| [HTML5 Web Workers](https://github.com/potatoscript/html/wiki/Web-Workers) | Learn how to run scripts in the background. |  
+| [HTML5 Geolocation](https://github.com/potatoscript/html/wiki/Geolocation) | Get user location using the Geolocation API. |  
+| [HTML5 Drag & Drop](https://github.com/potatoscript/html/wiki/Drag-Drop) | Allow users to drag and drop elements. |  
+| [HTML5 WebSockets](https://github.com/potatoscript/html/wiki/WebSockets) | Learn real-time communication with servers. |  
+| [HTML5 IndexedDB](https://github.com/potatoscript/html/wiki/IndexedDB) | Store large amounts of structured data. |  
+| [HTML5 Accessibility](https://github.com/potatoscript/html/wiki/Accessibility) | Make your website accessible to all users. |  
+| [HTML5 Responsive Design](https://github.com/potatoscript/html/wiki/Responsive-Design) | Use media queries and flexible layouts. |  
+| [HTML5 Picture & Source](https://github.com/potatoscript/html/wiki/Picture-Element) | Use `<picture>` for responsive images. |  
+| [HTML5 Manifest & PWA](https://github.com/potatoscript/html/wiki/PWA) | Learn how to create a Progressive Web App (PWA). |  
+| [HTML5 Forms Validation](https://github.com/potatoscript/html/wiki/Forms-Validation) | Validate user input with built-in HTML5 rules. |  
+| [HTML5 Shadow DOM](https://github.com/potatoscript/html/wiki/Shadow-DOM) | Encapsulate styles and scripts. |  
+| [HTML5 Custom Elements](https://github.com/potatoscript/html/wiki/Custom-Elements) | Create your own HTML elements. |  
+| [HTML5 Template & Slot](https://github.com/potatoscript/html/wiki/Template-Slot) | Learn `<template>` and `<slot>` for reusable content. |  
+| [HTML5 Web Components](https://github.com/potatoscript/html/wiki/Web-Components) | Build modular UI components. |  
+| [HTML5 Service Workers](https://github.com/potatoscript/html/wiki/Service-Workers) | Learn offline capabilities for web apps. |  
+| [HTML5 Offline Storage](https://github.com/potatoscript/html/wiki/Offline-Storage) | Store data when users are offline. |  
+| [HTML5 Animations](https://github.com/potatoscript/html/wiki/Animations) | Learn how to create animations using HTML5. |  
+| [HTML5 Data Attributes](https://github.com/potatoscript/html/wiki/Data-Attributes) | Store extra information in HTML elements. |  
+| [HTML5 ARIA Roles](https://github.com/potatoscript/html/wiki/ARIA) | Make web content more accessible. |  
 
-### Improvements and Additions:
-- **Detailed Examples**: Each section includes examples that are simple and clear.
-- **Step-by-Step Breakdown**: Explaining each tag, attribute, and function in the simplest way possible.
-- **Interactive Examples**: For hands-on learning and testing.
-- **Real-World Applications**: Show how each concept is used in real web development.
-- **Support for Primary School Students**: Focus on clarity and simplicity while maintaining a professional approach.
